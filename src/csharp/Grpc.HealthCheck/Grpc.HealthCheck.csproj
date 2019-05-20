@@ -10,11 +10,11 @@
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/grpc/grpc</PackageProjectUrl>
     <PackageTags>gRPC health check</PackageTags>
-    <VersionPrefix>$(GrpcCsharpVersion)</VersionPrefix> 
+    <VersionPrefix>$(GrpcCsharpVersion)</VersionPrefix>
+    <TargetFramework>netstandard2.0</TargetFramework> 
   </PropertyGroup>
 
   <PropertyGroup>
-    <TargetFrameworks>net45;netstandard1.5;netstandard2.0</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
